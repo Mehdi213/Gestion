@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="271.0" prefWidth="301.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Choix">
+   <children>
+      <ImageView fitHeight="393.0" fitWidth="308.0" layoutX="-2.0" layoutY="-2.0" opacity="0.45">
+         <image>
+            <Image url="@IMG/posters-vector-silver-grey-white-mosaic-flowers-seamless-repeat-pattern-background-design-great-for-elegant-wedding-invitations-anniversary-packaging-fabric-wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="120.0" layoutY="233.0" lineSpacing="100.0" onAction="#submit" text="Submit" />
+      <JFXRadioButton fx:id="enseignant" layoutX="98.0" layoutY="143.0" onAction="#selectenseignant" prefHeight="17.0" prefWidth="109.0" selectedColor="black" text="Enseignant" />
+      <JFXRadioButton fx:id="Etudiant" layoutX="99.0" layoutY="187.0" onAction="#selectetudiant" prefHeight="17.0" prefWidth="103.0" selectedColor="black" text="Etudiant" />
+      <JFXRadioButton fx:id="Admin" layoutX="99.0" layoutY="101.0" onAction="#selectAdmin" prefHeight="17.0" prefWidth="103.0" selectedColor="black" text="Admin" />
+      <Label layoutX="71.0" layoutY="7.0" prefHeight="53.0" prefWidth="163.0" text="Bienvenu ">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

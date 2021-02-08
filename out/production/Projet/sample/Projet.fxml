@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="451.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Projet">
+   <children>
+      <JFXButton layoutX="248.0" layoutY="416.0" onAction="#Choix" prefHeight="27.0" prefWidth="104.0" text="Choisir PFE" />
+      <TreeTableView fx:id="Tab" onMouseClicked="#information" prefHeight="409.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>

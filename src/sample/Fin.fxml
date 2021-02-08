@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="111.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Fin">
+   <children>
+      <ImageView fitHeight="127.0" fitWidth="301.0" layoutX="-1.0" opacity="0.45">
+         <image>
+            <Image url="@IMG/posters-vector-silver-grey-white-mosaic-flowers-seamless-repeat-pattern-background-design-great-for-elegant-wedding-invitations-anniversary-packaging-fabric-wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="10.0" layoutY="14.0" prefHeight="18.0" prefWidth="280.0" text="Le Sujet a bien eté ajouter a la liste si vous voulez">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="Ajouter" layoutX="135.0" layoutY="58.0" onAction="#Ajouter" text="+" />
+      <JFXButton fx:id="Quitter" layoutX="120.0" layoutY="93.0" onAction="#Quitter" text="Quitter" />
+      <Label layoutX="10.0" layoutY="32.0" prefHeight="17.0" prefWidth="280.0" text="              ajouter un autre sujet cliqué sur  +">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

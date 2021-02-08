@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="145.0" prefWidth="281.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.QuitterProf">
+   <children>
+      <ImageView fitHeight="145.0" fitWidth="284.0" layoutX="-3.0" opacity="0.43">
+         <image>
+            <Image url="@IMG/posters-vector-silver-grey-white-mosaic-flowers-seamless-repeat-pattern-background-design-great-for-elegant-wedding-invitations-anniversary-packaging-fabric-wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="107.0" layoutY="111.0" onMouseClicked="#Quitter" text="Quitter" />
+      <JFXButton layoutX="121.0" layoutY="69.0" onMouseClicked="#Plus" text="+" />
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="240.0" text="  Vous venez d'ajouter un Enseignant " />
+      <Label layoutX="4.0" layoutY="41.0" prefHeight="17.0" prefWidth="255.0" text="   si vous voulez ajouter un autre clické +" />
+   </children>
+</AnchorPane>

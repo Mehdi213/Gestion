@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="441.0" prefWidth="746.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <JFXButton layoutX="545.0" layoutY="406.0" onAction="#Quitter" prefHeight="27.0" prefWidth="104.0" text="Quitter" />
+      <ImageView fitHeight="400.0" fitWidth="592.0">
+         <image>
+            <Image url="@IMG/posters-vector-silver-grey-white-mosaic-flowers-seamless-repeat-pattern-background-design-great-for-elegant-wedding-invitations-anniversary-packaging-fabric-wallpaper.jpg" />
+         </image>
+      </ImageView>
+      <TreeTableView fx:id="Tab" prefHeight="400.0" prefWidth="746.0">
+
+      </TreeTableView>
+      <Label fx:id="urgent" layoutX="5.0" layoutY="412.0" prefHeight="17.0" prefWidth="510.0" text="/!\  Important  : si votre PFE ne vous est pas accordé  un mail vous sera envoyer  !!" textFill="RED" />
+   </children>
+</AnchorPane>
